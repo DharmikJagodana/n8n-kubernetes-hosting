@@ -36,11 +36,6 @@ spec:
                 secretKeyRef:
                   name: n8n-secret
                   key: WEBHOOK_URL
-            - name: GENERIC_TIMEZONE
-              valueFrom:
-                secretKeyRef:
-                  name: n8n-secret
-                  key: GENERIC_TIMEZONE
             - name: N8N_EDITOR_BASE_URL
               valueFrom:
                 secretKeyRef:
